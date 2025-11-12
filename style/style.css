@@ -6,9 +6,10 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+     
 }
 
-
+/*Header Section*/
 .header {
     position: fixed;
     z-index: 1000;
@@ -16,6 +17,11 @@ body {
     height: 70px;
     background-color: white;
 
+}
+
+main {
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .header-container {
@@ -50,4 +56,55 @@ body {
     background-color: #1062fc;
     color: white !important;
     padding: 10px 15px;
+    display: inline-block;
+}
+
+/*Hero Section*/
+.hero-section {
+    background-color: #b3cfe5;    
+}
+
+.hero-container {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.h1-text {
+    font-size: 82px; 
+    padding-top: 50px; 
+}
+
+.right-hero img {
+    max-width: 90%;
+}
+
+.hero-column {
+    display:flex ; 
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.right-hero {
+    flex-basis: 81%;
+}
+
+.left-hero {
+    flex-basis: 29%;   
+}
+
+.p-text {
+    margin-bottom : 30px; 
+    line-height: 1.7;
+}
+
+.left-hero .bottom-general {
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.fa-arrow-down {
+    font-size: 35px; 
 }
