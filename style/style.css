@@ -119,12 +119,13 @@ main {
 }
 
 
-.section-image-text .right-hero {
-    flex-basis: 50%;
+.section-image-text .right-column {
+    flex-basis: 65%;
 }
 
-.section-image-text .left-hero {
-    flex-basis: 50%;   
+.section-image-text .left-column{
+    flex-basis: 35%;  
+    margin-left: -150px; 
 }
 
 .section-image-text h4 {
@@ -137,4 +138,9 @@ main {
   background-color: white;
   color: black !important;
   border: 1px solid black;  
+}
+
+.section-image-text .image-partners {
+  max-width: 80%;   
+   
 }
