@@ -109,6 +109,8 @@ main {
     font-size: 35px; 
 }
 
+
+/* Section image-text */
 .section-image-text {
     padding-top: 100px; 
     background-color: white;
@@ -117,7 +119,6 @@ main {
     width: 60%;
     gap: 40px;
 }
-
 
 .section-image-text .right-column {
     flex-basis: 65%;
@@ -145,8 +146,19 @@ main {
    
 }
 
-.row-flex {
+/*Card Section*/
+
+.business-title {
     padding-top: 150px;
+    width: 60%;
+    margin: 0 auto;
+    
+    font-size: 40px;
+}
+
+.row-flex {
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: flex; 
     margin : 0 auto ; 
     flex-wrap: wrap;
@@ -156,11 +168,36 @@ main {
 
 .card {
     width : calc(100%  / 3 - (40px /3));
-    border: solid 1px black;
-    background-color: aqua;
-    height:200px; 
+   
 }
 
-.row-flex .img {
-    max-width: 50%;
+.row-flex img {
+    max-width: 100%;
 }
+
+.card h4 {
+    font-size: 25px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.business-clients-container {
+    margin: 0 auto ;
+    width: 60%; 
+    padding-top: 50px;
+   
+    
+}
+
+.business-clients-title {
+    font-size: 40px;
+   max-width: 700px;
+}
+
+.business-clients-container .bottom-general {
+    color: #1062fc !important;
+    background-color: white;
+    padding-top: 50px;
+    
+}
+
