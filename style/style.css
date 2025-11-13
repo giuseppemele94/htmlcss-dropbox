@@ -146,6 +146,50 @@ main {
     border-radius: 50%;
 }
 
+
+.plans-row {
+    display: flex;
+    margin: 0 auto;
+    gap: 40px; 
+    width: 60% ; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.plans-card {
+    width : calc(100% /3 );
+    border: 1px solid #dcdcdc;
+    
+}
+
+.full-width-card {
+    display: flex;
+    width: 60%; 
+    margin: 0 auto; ;
+    
+    border: 1px solid #dcdcdc;
+    flex-direction: column;
+    
+}
+
+.full-width-card .plan-tag {
+    display: block;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.full-width-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 40px;
+    gap: 30px;
+}
+
+
 .option-check.selected .circle {
     background-color: #0061ff;;
 }
@@ -153,9 +197,106 @@ main {
 .check-container span {
     color: black ;
 }
+
+.full-width-left {
+    flex-basis:70%;
+}
+
+.full-width-right {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* Piano Details*/
+
+.full-width-card .plan-tag {
+    font-size : 20px; 
+}
+
+.full-width-left .plan-name {
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+
+.full-width-left p {
+    margin-top: 50px;
+}
+
+.full-width-right .bottom-general{
+    text-decoration: none;
+}
+
+.plan-tag {
+    font-size: 20px; 
+    color: black ; 
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0; 
+}
+
+.plan-name {
+    font-size: 25px; 
+    padding-top :30px; 
+    padding-left : 30px; 
+}
+
+.plan-price {
+padding-top :30px; 
+    padding-left : 30px; 
+}
+
+.plan-price-month  {
+    font-size: 14px;
+    color: #555;
+    padding-left : 30px; 
+    padding-top : 10px; 
+}
+
+.plan-list {
+    list-style: none; 
+    padding-top : 50px; 
+   
+    padding-left : 30px;
+    
+}
+
+.plan-list li {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.plans-card .bottom-general {
+    text-decoration: none;
+    margin-top: 25px; 
+    margin-left : 30px; 
+    padding : 12px 30px;
+    
+}
+
+.plan-link {
+    margin-top: 35px; 
+    margin-left : 30px; 
+    
+}
+
+.plan-point-salient h4 {
+    margin-left: 30px; 
+    margin-top: 70px;
+}
+
+.plan-point-salient .fa-check {
+    font-size: 18px;
+    text-align: start;
+    color: #0061ff;
+}
+
+
 /* Section image-text */
 .section-image-text {
-    padding-top: 100px; 
+    padding-top: 200px; 
     background-color: white;
     display: flex;
     margin: 0 auto;
