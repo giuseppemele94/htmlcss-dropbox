@@ -54,26 +54,14 @@ main {
 
 
 .list-header a {
-    position: relative;
-    padding-bottom: 8px;     /* spazio per la barra */
+    color: black;
+    transition: color 0.2s ease-in-out;
 }
 
-/* barra nascosta di default */
-.list-header a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #1062fc;  
-    
+.list-header a:hover {
+    color: #1062fc; /* blu Dropbox */
 }
 
-/* quando passo sopra, la barra si anima */
-.list-header a:hover::after {
-    width: 100%;
-}
 
 
 
