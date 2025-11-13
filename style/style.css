@@ -218,11 +218,7 @@ main {
 
 .footer-col {
     margin-top: 100px;
-    flex: 1;           /* OGNI COLONNA PRENDE 1/5 ESATTO */
-    color: white;
-    
-    
-    
+    color: white;  
 }
 
 .footer-text {
@@ -236,4 +232,5 @@ main {
     text-decoration: none;
     color: white;
     line-height: 2;
+    font-size: 18px;
 }
