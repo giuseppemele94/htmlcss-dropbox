@@ -107,6 +107,11 @@ main {
 
 .fa-arrow-down {
     font-size: 35px; 
+    cursor: pointer;
+}
+
+.fa-arrow-down:active {
+    color: #1062fc;
 }
 
 
