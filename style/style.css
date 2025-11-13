@@ -144,3 +144,23 @@ main {
   max-width: 80%;   
    
 }
+
+.row-flex {
+    padding-top: 150px;
+    display: flex; 
+    margin : 0 auto ; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    width : 60%; 
+}
+
+.card {
+    width : calc(100%  / 3 - (40px /3));
+    border: solid 1px black;
+    background-color: aqua;
+    height:200px; 
+}
+
+.row-flex .img {
+    max-width: 50%;
+}
